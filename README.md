@@ -23,7 +23,7 @@ It writes:
 ```
 .design-kit/
 ├── design.md        # Design MD — source of truth for UI work
-└── manifest.json    # { "version": "1.1.2" }
+└── manifest.json    # { "version": "1.1.3" }
 
 .claude/skills/
 ├── prototype/SKILL.md

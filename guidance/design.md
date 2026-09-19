@@ -99,6 +99,8 @@ is universal (close, search, menu).
 **Tooltips** — Supplementary info only, never the only label or a required instruction.
 Show on hover and focus, dismiss on Escape. Don't put errors or actions in a tooltip.
 
+**Links** — Underline links in body text. Don't underline nav or button-style links.
+
 ## Interaction
 
 - Every interactive element needs visible hover, active, focus, and disabled states.
