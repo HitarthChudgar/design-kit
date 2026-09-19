@@ -1,0 +1,20 @@
+{
+  "name": "@org/design-kit",
+  "version": "1.1.2",
+  "description": "Install shared design guidance and AI skills into a project with one command.",
+  "type": "module",
+  "bin": {
+    "design-kit": "bin/cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "guidance",
+    "skills",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "license": "MIT"
+}
