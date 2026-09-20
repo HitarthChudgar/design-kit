@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0
+
+- Skills install to `.github/skills/` (VS Code Copilot). Existing `.claude/skills/`
+  copies are not removed.
+
 ## 1.1.3
 
 - Design MD: added link guidance (underline in body text, not in nav or buttons).

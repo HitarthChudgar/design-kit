@@ -23,9 +23,9 @@ It writes:
 ```
 .design-kit/
 ├── design.md        # Design MD — source of truth for UI work
-└── manifest.json    # { "version": "1.1.3" }
+└── manifest.json    # { "version": "1.2.0" }
 
-.claude/skills/
+.github/skills/
 ├── prototype/SKILL.md
 └── copy/SKILL.md
 ```
@@ -51,7 +51,7 @@ mkdir /tmp/test-app && cd /tmp/test-app
 design-kit
 ```
 
-Check the result with `ls -R .design-kit .claude`. Edits to `guidance/` or `skills/`
+Check the result with `ls -R .design-kit .github/skills`. Edits to `guidance/` or `skills/`
 apply immediately — no rebuild, no reinstall.
 
 Unlink when you're done:

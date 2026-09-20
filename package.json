@@ -1,6 +1,6 @@
 {
   "name": "@org/design-kit",
-  "version": "1.1.3",
+  "version": "1.2.0",
   "description": "Install shared design guidance and AI skills into a project with one command.",
   "type": "module",
   "bin": {

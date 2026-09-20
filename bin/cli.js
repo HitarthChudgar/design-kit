@@ -19,12 +19,12 @@ const managedFiles = [
   {
     label: 'prototype',
     from: join(packageRoot, 'skills', 'prototype', 'SKILL.md'),
-    to: join(targetRoot, '.claude', 'skills', 'prototype', 'SKILL.md'),
+    to: join(targetRoot, '.github', 'skills', 'prototype', 'SKILL.md'),
   },
   {
     label: 'copy',
     from: join(packageRoot, 'skills', 'copy', 'SKILL.md'),
-    to: join(targetRoot, '.claude', 'skills', 'copy', 'SKILL.md'),
+    to: join(targetRoot, '.github', 'skills', 'copy', 'SKILL.md'),
   },
 ];
 

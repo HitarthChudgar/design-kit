@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
-import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -42,6 +42,8 @@ withTemp((dir) => {
   const fresh = run(dir);
   assert.doesNotMatch(fresh, /What's new/);
   assert.match(fresh, new RegExp(`v${version} installed\\n`));
+  assert.ok(existsSync(join(dir, '.github', 'skills', 'prototype', 'SKILL.md')));
+  assert.ok(existsSync(join(dir, '.github', 'skills', 'copy', 'SKILL.md')));
 });
 
 console.log('ok');
